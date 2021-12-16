@@ -1,0 +1,4 @@
+quote=$(curl -s  'https://quotes.rest/qod?category=inspire' | \
+ jq '.contents.quotes[0].quote','.contents.quotes[0].author')
+ notify-send "${quote}"
+
