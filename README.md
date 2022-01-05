@@ -68,3 +68,4 @@ cp -r {bspwm,polybar,sxhkd,picom,eww,dunst,neofetch,fish,kitty} ~/.config
 | mod + shift + m  | Launch rofi music menu       | 
 | mod + shift + l  | Launch i3lock               | 
 | mod + d          | Launch eww widget           |
+| mod + c          | Close window                |
