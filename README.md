@@ -26,10 +26,45 @@ cd dotfiles
 
 ##### Give execution permissions to necessary files
 
+###### u can get a rofi theme in https://github.com/Bleyom/rofi
+
 ```
 chmod +x scripts/*
 chmod +x eww/scripts/*
+chmod +x polybar/launch.sh
+chmod +x bspwm/bspwmrc
 ```
 
+##### Copy directories to ~/.config
 
-### Working ...
+###### Move ``move scripts/eww and scripts/dshbrd to ~/.co
+
+###### Move `fish/starship.toml` to ~/.config
+
+### and
+
+```
+cp -r {bspwm,polybar,sxhkd,picom,eww,dunst,neofetch,fish,kitty} ~/.config
+```
+
+#### And create a `~/.scripts` directory and move all the files in the scripts folder to `~/.scripts`
+
+
+
+
+#### Fine now The keybindings :D
+
+### Keybinds
+
+| Keybind          | Command                     |      
+| -----------------| --------------------------- |
+| mod + Return     | Open kitty/Terminal Emlator |
+| mod + space bar  |    Launch rofi               |
+| mod + shift + c  | Laucnh rofi screenshot menu  |
+| mod + shift + l  | Daily quote :p              | 
+| mod + shift + s  | Launch spotify              |
+| mod + shift + f  | Launch Firefox              | 
+| mod + shift + d  | Launch discord              |
+| mod + shift + m  | Launch rofi music menu       | 
+| mod + shift + l  | Launch i3lock               | 
+| mod + d          | Launch eww widget           |
