@@ -5,7 +5,6 @@
 ## 🔗 Table of content
 [![Installation](https://img.shields.io/badge/%E2%9A%99%EF%B8%8F-Installation-brightgreen?style=for-the-badge)](https://github.com/Bleyom/dotfiles#installation)
 [![Keybinds/Usage](https://img.shields.io/badge/%E2%8C%A8%EF%B8%8F%EF%B8%8F-Keybinds-brightgreen?style=for-the-badge)](https://github.com/Bleyom/dotfiles/blob/main/README.md#keybinds)
-[![Gallery](https://img.shields.io/badge/%F0%9F%93%B8%EF%B8%8F%EF%B8%8F-Gallery-brightgreen?style=for-the-badge)](#)
 
 ---
 
@@ -59,8 +58,8 @@ cp -r {bspwm,polybar,sxhkd,picom,eww,dunst,neofetch,fish,kitty} ~/.config
 | Keybind          | Command                     |      
 | -----------------| --------------------------- |
 | mod + Return     | Open kitty/Terminal Emlator |
-| mod + space bar  |    Launch rofi               |
-| mod + shift + c  | Laucnh rofi screenshot menu  |
+| mod + space bar  | Launch rofi                  |
+| mod + shift + c  | Launch rofi screenshot menu  |
 | mod + shift + l  | Daily quote :p              | 
 | mod + shift + s  | Launch spotify              |
 | mod + shift + f  | Launch Firefox              | 
@@ -69,3 +68,13 @@ cp -r {bspwm,polybar,sxhkd,picom,eww,dunst,neofetch,fish,kitty} ~/.config
 | mod + shift + l  | Launch i3lock               | 
 | mod + d          | Launch eww widget           |
 | mod + c          | Close window                |
+
+<br>
+<br>
+<br>
+
+# TODO
+
+- ~~Update README~~
+- Make auto-install script for Arch/Debian
+- Add Gallery
