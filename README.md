@@ -11,6 +11,15 @@
 
 ### Installation
 
+## For arch users ( AUR HELPER NEEDED )
+```
+yay -S bspwm polybar dunst picom kitty fish rofi python python-dbus nerd-fonts-fira-code ttf-iosevka-nerd
+```
+
+## For debian users
+```
+Install arch (jk) i'm working in that
+```
 
 ##### Clone the repo
 ```
